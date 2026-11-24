@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background: #f6f2ea;
+  color: #1b1b18;
+}
+
+body {
+  font-family: var(--font-texte), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 3px solid #b83a12;
+  outline-offset: 2px;
+}
